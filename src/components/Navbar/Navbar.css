@@ -1,0 +1,92 @@
+.navBar {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.rightNav {
+  cursor: pointer;
+  text-align: right;
+}
+
+@media only screen and (max-width: 500px) {
+  .rightNav {
+    display: block;
+    text-align: right;
+
+  }
+
+  .rightNav div {
+    background-color: rgb(43, 43, 43);
+    margin: 1px;
+  }
+
+  .rightNav div:hover {
+    background-color: rgb(34, 34, 34);
+  }
+
+  .nav div {
+    padding-left: 0;
+  }
+}
+
+.nav div {
+  padding: 5px;
+
+}
+
+.sideBar {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: .3s linear;
+}
+
+.sideBar img {
+  background-color: #fff;
+}
+
+.sideBar li {
+  background-color: rgb(31, 31, 31);
+}
+
+.navControls {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.navControls div {
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.navControls div:active {
+  background-color: rgb(58, 58, 58);
+}
+
+i {
+  cursor: pointer;
+  color: #fff;
+
+}
+
+Link,
+a {
+  padding: 10px;
+  color: #fff;
+}
+
+.borderBottom {
+  border-bottom: 3px solid rgb(36, 36, 36);
+}

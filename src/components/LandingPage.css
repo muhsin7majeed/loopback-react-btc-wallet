@@ -1,0 +1,18 @@
+.backGround {
+  color: #fff;
+  display: flex;
+}
+
+.jumbotron {
+  margin-top: 20%;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  filter: brightness(40%);
+}
