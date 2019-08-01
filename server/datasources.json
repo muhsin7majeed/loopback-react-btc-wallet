@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://muhsin7majeed:hesoyam123@mernauthapp-rst9l.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
